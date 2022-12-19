@@ -17,8 +17,6 @@ build:
 	@ cat << EOF
 	set environment variables as following(custom the values as they should be) before performing the build
 	export SERVICE_BASE_URL=http://localhost:3000
-	export ADMIN_PORTAL_PORT=3001
-	export CUSTOMER_PORTAL_PORT=3002
 	EOF
 	lerna run build
 
